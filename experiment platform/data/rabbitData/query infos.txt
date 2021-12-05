@@ -1,0 +1,59 @@
+#########Actual Data#############
+event staffing 10:
+-date of query: 09/16/20 1pm et
+-task location : Chicago, Illinois, USA
+-task options: Medium  Est. 2-3 hrs
+-details of task text field: Party Staffing 
+-task date: within two weeks
+
+help moving 10:
+-date of query: 09/16/20 1:30pm et
+-start-address: San Francisco, California
+-task-size medium
+-no vehicle required
+details of task text field: moving assistance
+task date: within two weeks
+
+Shopping 10:
+date of query: 09/16/20 2pm et
+task location: Houston, Texas, USA
+task-size: medium
+-no vehicle required
+details of task text field: Help Shopping
+task date within two weeks
+##########History###########
+event staffing:
+-date of query: 09/16/20 1pm et
+-task location : 516 Flushing Ave, Brooklyn, NY 11205, USA
+-task options: Medium  Est. 2-3 hrs
+-details of task text field: Help organizing and planning a 
+			party as well as support during the night of 
+			the event at the bar and other occupations 
+-task date: today
+
+help moving:
+-date of query: 09/16/20 1:30pm et
+-start-address: Pittsburgh
+-task-size medium
+-no vehicle required
+details of task text field: Looking for help to move the interior 
+				of our office unit to the new location
+task date: within a week
+
+help moving 20:
+-date of query: 09/16/20 1:30pm et
+-start-address: Los Angeles
+-task-size medium
+-no vehicle required
+details of task text field: help moving
+task date: within a week
+
+
+
+Shopping:
+date of query: 09/16/20 2pm et
+task location: Boston, Massachusetts, USA
+task-size: small
+-no vehicle required
+details of task text field: Support us in a shopping tour for office supplies
+

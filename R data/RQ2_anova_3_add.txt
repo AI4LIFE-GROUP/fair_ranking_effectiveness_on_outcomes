@@ -1,0 +1,39 @@
+> anova_3 <- aov(selected_3 ~ ranking_type + as.factor(data_order) + task, data=dat)
+> coeftest(anova_3, vcov.=vcovCL(anova_3, cluster = dat$uID, type = "HC0"))
+
+t test of coefficients:
+
+                         Estimate Std. Error t value  Pr(>|t|)    
+(Intercept)             0.3493391  0.0151101 23.1196 < 2.2e-16 ***
+ranking_typeRandom     -0.0281068  0.0131778 -2.1329  0.033084 *  
+ranking_typeTaskRabbit -0.0640201  0.0130151 -4.9189 9.585e-07 ***
+as.factor(data_order)1 -0.0020605  0.0122243 -0.1686  0.866164    
+as.factor(data_order)2 -0.0059773  0.0130725 -0.4572  0.647555    
+taskmoving             -0.0472683  0.0173799 -2.7197  0.006604 ** 
+taskshopping            0.0018416  0.0172151  0.1070  0.914820    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+> TukeyHSD(anova_3)
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = selected_3 ~ ranking_type + as.factor(data_order) + task, data = dat)
+
+$ranking_type
+                         diff         lwr          upr     p adj
+Random-Fair       -0.02803129 -0.06570247  0.009639892 0.1886641
+TaskRabbit-Fair   -0.06393802 -0.10150812 -0.026367911 0.0002018
+TaskRabbit-Random -0.03590673 -0.07321286  0.001399412 0.0621855
+
+$`as.factor(data_order)`
+            diff         lwr        upr     p adj
+1-0 -0.002059413 -0.03967517 0.03555634 0.9909475
+2-0 -0.005975894 -0.04338439 0.03143260 0.9255214
+2-1 -0.003916481 -0.04142989 0.03359693 0.9674756
+
+$task
+                        diff         lwr          upr     p adj
+moving-event    -0.047268263 -0.08477939 -0.009757139 0.0088687
+shopping-event   0.001841621 -0.03566950  0.039352744 0.9927139
+shopping-moving  0.049109883  0.01159876  0.086621007 0.0061354

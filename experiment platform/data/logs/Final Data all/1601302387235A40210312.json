@@ -1,0 +1,808 @@
+{
+  "briefing": [
+    {
+      "category": "briefingEvent",
+      "eventName": "displayBriefingStep",
+      "itemID": 1,
+      "timeOfEvent": 1601302397370,
+      "eventDuration": 0
+    },
+    {
+      "category": "briefingEvent",
+      "eventName": "displayBriefingStep",
+      "itemID": 2,
+      "timeOfEvent": 1601302401652,
+      "eventDuration": 0
+    },
+    {
+      "category": "briefingEvent",
+      "eventName": "displayBriefingStep",
+      "itemID": 3,
+      "timeOfEvent": 1601302488548,
+      "eventDuration": 0
+    },
+    {
+      "category": "briefingEvent",
+      "eventName": "displayBriefingStep",
+      "itemID": 4,
+      "timeOfEvent": 1601302830969,
+      "eventDuration": 0
+    },
+    {
+      "category": "briefingEvent",
+      "eventName": "displayBriefingStep",
+      "itemID": 5,
+      "timeOfEvent": 1601302842708,
+      "eventDuration": 0
+    },
+    {
+      "category": "briefingEvent",
+      "eventName": "displayBriefingStep",
+      "itemID": 6,
+      "timeOfEvent": 1601302998645,
+      "eventDuration": 0
+    },
+    {
+      "category": "timeStamps",
+      "eventName": "briefingDuration",
+      "itemID": "none",
+      "timeOfEvent": 1601303039646,
+      "eventDuration": null
+    }
+  ],
+  "ranking": [
+    {
+      "category": "serverEvent",
+      "eventName": "loadNewRankingType",
+      "itemID": 3,
+      "timeOfEvent": 1601303039911,
+      "eventDuration": 0
+    },
+    {
+      "category": "rankingRepresentation",
+      "timeOfEvent": 1601303039912,
+      "ranking": [
+        {
+          "id": 51,
+          "name": "Amy Collins",
+          "score": 0.7770644320163811,
+          "tag1": "98%",
+          "tag2": 100,
+          "tag3": 1,
+          "gender": "f",
+          "fairrank": 1,
+          "scorerank": 1,
+          "rank": 1
+        },
+        {
+          "id": 53,
+          "name": "Susan Hill",
+          "score": 0.7763590957966456,
+          "tag1": "96%",
+          "tag2": 100,
+          "tag3": 1,
+          "gender": "f",
+          "fairrank": 3,
+          "scorerank": 2,
+          "rank": 2
+        },
+        {
+          "id": 55,
+          "name": "Katherine Thompson",
+          "score": 0.7241151414444923,
+          "tag1": "88%",
+          "tag2": 100,
+          "tag3": 2,
+          "gender": "f",
+          "fairrank": 5,
+          "scorerank": 3,
+          "rank": 3
+        },
+        {
+          "id": 57,
+          "name": "Dorothy Robinson",
+          "score": 0.723664417490066,
+          "tag1": "100%",
+          "tag2": 100,
+          "tag3": 0,
+          "gender": "f",
+          "fairrank": 7,
+          "scorerank": 4,
+          "rank": 4
+        },
+        {
+          "id": 58,
+          "name": "Jessica Cook",
+          "score": 0.7190217755368232,
+          "tag1": "100%",
+          "tag2": 100,
+          "tag3": 0,
+          "gender": "f",
+          "fairrank": 8,
+          "scorerank": 5,
+          "rank": 5
+        },
+        {
+          "id": 59,
+          "name": "Margaret Collins",
+          "score": 0.6948946293440471,
+          "tag1": "100%",
+          "tag2": 96,
+          "tag3": 0,
+          "gender": "f",
+          "fairrank": 9,
+          "scorerank": 6,
+          "rank": 6
+        },
+        {
+          "id": 60,
+          "name": "Mary Anderson",
+          "score": 0.6912021464108199,
+          "tag1": "100%",
+          "tag2": 100,
+          "tag3": 0,
+          "gender": "f",
+          "fairrank": 10,
+          "scorerank": 7,
+          "rank": 7
+        },
+        {
+          "id": 52,
+          "name": "Benjamin Roberts",
+          "score": 0.6889140819717308,
+          "tag1": "100%",
+          "tag2": 100,
+          "tag3": 0,
+          "gender": "m",
+          "fairrank": 2,
+          "scorerank": 8,
+          "rank": 8
+        },
+        {
+          "id": 54,
+          "name": "Charles White",
+          "score": 0.6795129006315132,
+          "tag1": "100%",
+          "tag2": 83,
+          "tag3": 0,
+          "gender": "m",
+          "fairrank": 4,
+          "scorerank": 9,
+          "rank": 9
+        },
+        {
+          "id": 56,
+          "name": "Kevin King",
+          "score": 0.6792422827330241,
+          "tag1": "100%",
+          "tag2": 95,
+          "tag3": 0,
+          "gender": "m",
+          "fairrank": 6,
+          "scorerank": 10,
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "select",
+      "itemID": 55,
+      "timeOfEvent": 1601303047231,
+      "eventDuration": 0
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 55,
+      "timeOfEvent": 1601303050782,
+      "eventDuration": 3552
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "select",
+      "itemID": 53,
+      "timeOfEvent": 1601303050783,
+      "eventDuration": 0
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 53,
+      "timeOfEvent": 1601303051226,
+      "eventDuration": 444
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "select",
+      "itemID": 51,
+      "timeOfEvent": 1601303051228,
+      "eventDuration": 0
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 51,
+      "timeOfEvent": 1601303059242,
+      "eventDuration": 8015
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "unselect",
+      "itemID": 55,
+      "timeOfEvent": 1601303059243,
+      "eventDuration": 0
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "longHover",
+      "itemID": 55,
+      "timeOfEvent": 1601303065294,
+      "eventDuration": 6052
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "select",
+      "itemID": 52,
+      "timeOfEvent": 1601303065296,
+      "eventDuration": 0
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 52,
+      "timeOfEvent": 1601303070117,
+      "eventDuration": 4822
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "select",
+      "itemID": 55,
+      "timeOfEvent": 1601303070118,
+      "eventDuration": 0
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 55,
+      "timeOfEvent": 1601303071908,
+      "eventDuration": 1791
+    },
+    {
+      "category": "serverEvent",
+      "eventName": "loadNewRankingType",
+      "itemID": 3,
+      "timeOfEvent": 1601303071980,
+      "eventDuration": 0
+    },
+    {
+      "category": "rankingRepresentation",
+      "timeOfEvent": 1601303071980,
+      "ranking": [
+        {
+          "id": 31,
+          "name": "Linda Johnson",
+          "score": 0.8685688011573159,
+          "tag1": "99%",
+          "tag2": 100,
+          "tag3": 634,
+          "gender": "f",
+          "fairrank": 1,
+          "scorerank": 1,
+          "rank": 1
+        },
+        {
+          "id": 33,
+          "name": "Melissa Peterson",
+          "score": 0.8590045381474498,
+          "tag1": "97%",
+          "tag2": 100,
+          "tag3": 395,
+          "gender": "f",
+          "fairrank": 3,
+          "scorerank": 2,
+          "rank": 2
+        },
+        {
+          "id": 35,
+          "name": "Emily Smith",
+          "score": 0.8502374704583605,
+          "tag1": "100%",
+          "tag2": 100,
+          "tag3": 64,
+          "gender": "f",
+          "fairrank": 5,
+          "scorerank": 3,
+          "rank": 3
+        },
+        {
+          "id": 32,
+          "name": "Scott Baker",
+          "score": 0.8484922997440333,
+          "tag1": "100%",
+          "tag2": 100,
+          "tag3": 41,
+          "gender": "m",
+          "fairrank": 2,
+          "scorerank": 4,
+          "rank": 4
+        },
+        {
+          "id": 37,
+          "name": "Ruth Adams",
+          "score": 0.8481191210673654,
+          "tag1": "100%",
+          "tag2": 100,
+          "tag3": 158,
+          "gender": "f",
+          "fairrank": 7,
+          "scorerank": 5,
+          "rank": 5
+        },
+        {
+          "id": 38,
+          "name": "Elizabeth Williams",
+          "score": 0.8466832462421382,
+          "tag1": "98%",
+          "tag2": 100,
+          "tag3": 388,
+          "gender": "f",
+          "fairrank": 8,
+          "scorerank": 6,
+          "rank": 6
+        },
+        {
+          "id": 34,
+          "name": "Paul Taylor",
+          "score": 0.839492387045522,
+          "tag1": "100%",
+          "tag2": 100,
+          "tag3": 141,
+          "gender": "m",
+          "fairrank": 4,
+          "scorerank": 7,
+          "rank": 7
+        },
+        {
+          "id": 39,
+          "name": "Jessica Jones",
+          "score": 0.8384138632702831,
+          "tag1": "100%",
+          "tag2": 98,
+          "tag3": 458,
+          "gender": "f",
+          "fairrank": 9,
+          "scorerank": 8,
+          "rank": 8
+        },
+        {
+          "id": 40,
+          "name": "Nicole Clark",
+          "score": 0.8371873144904489,
+          "tag1": "100%",
+          "tag2": 100,
+          "tag3": 48,
+          "gender": "f",
+          "fairrank": 10,
+          "scorerank": 9,
+          "rank": 9
+        },
+        {
+          "id": 36,
+          "name": "Kevin Miller",
+          "score": 0.8339155032920075,
+          "tag1": "99%",
+          "tag2": 100,
+          "tag3": 7,
+          "gender": "m",
+          "fairrank": 6,
+          "scorerank": 10,
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "select",
+      "itemID": 39,
+      "timeOfEvent": 1601303077326,
+      "eventDuration": 0
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 39,
+      "timeOfEvent": 1601303079310,
+      "eventDuration": 1986
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "select",
+      "itemID": 31,
+      "timeOfEvent": 1601303079311,
+      "eventDuration": 0
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 31,
+      "timeOfEvent": 1601303081162,
+      "eventDuration": 1852
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "select",
+      "itemID": 33,
+      "timeOfEvent": 1601303081163,
+      "eventDuration": 0
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 33,
+      "timeOfEvent": 1601303088140,
+      "eventDuration": 6978
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "select",
+      "itemID": 38,
+      "timeOfEvent": 1601303088140,
+      "eventDuration": 0
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 38,
+      "timeOfEvent": 1601303089698,
+      "eventDuration": 1558
+    },
+    {
+      "category": "serverEvent",
+      "eventName": "loadNewRankingType",
+      "itemID": 3,
+      "timeOfEvent": 1601303089773,
+      "eventDuration": 0
+    },
+    {
+      "category": "rankingRepresentation",
+      "timeOfEvent": 1601303089773,
+      "ranking": [
+        {
+          "id": 11,
+          "name": "Pamela Brown",
+          "score": 0.799641978367866,
+          "tag1": "95%",
+          "tag2": 96,
+          "tag3": 0,
+          "gender": "f",
+          "fairrank": 1,
+          "scorerank": 1,
+          "rank": 1
+        },
+        {
+          "id": 13,
+          "name": "Mary Hall",
+          "score": 0.788158103114649,
+          "tag1": "98%",
+          "tag2": 100,
+          "tag3": 1,
+          "gender": "f",
+          "fairrank": 3,
+          "scorerank": 2,
+          "rank": 2
+        },
+        {
+          "id": 15,
+          "name": "Katherine Green",
+          "score": 0.7805555452827792,
+          "tag1": "100%",
+          "tag2": 78,
+          "tag3": 0,
+          "gender": "f",
+          "fairrank": 5,
+          "scorerank": 3,
+          "rank": 3
+        },
+        {
+          "id": 17,
+          "name": "Laura Thompson",
+          "score": 0.7710606362667689,
+          "tag1": "98%",
+          "tag2": 100,
+          "tag3": 0,
+          "gender": "f",
+          "fairrank": 7,
+          "scorerank": 4,
+          "rank": 4
+        },
+        {
+          "id": 18,
+          "name": "Angela Robinson",
+          "score": 0.742341028683199,
+          "tag1": "100%",
+          "tag2": 100,
+          "tag3": 6,
+          "gender": "f",
+          "fairrank": 8,
+          "scorerank": 5,
+          "rank": 5
+        },
+        {
+          "id": 12,
+          "name": "Christopher Young",
+          "score": 0.7412400221038719,
+          "tag1": "98%",
+          "tag2": 100,
+          "tag3": 10,
+          "gender": "m",
+          "fairrank": 2,
+          "scorerank": 6,
+          "rank": 6
+        },
+        {
+          "id": 19,
+          "name": "Barbara Phillips",
+          "score": 0.7375636107859171,
+          "tag1": "97%",
+          "tag2": 100,
+          "tag3": 2,
+          "gender": "f",
+          "fairrank": 9,
+          "scorerank": 7,
+          "rank": 7
+        },
+        {
+          "id": 14,
+          "name": "Matthew Brown",
+          "score": 0.7258889517568552,
+          "tag1": "93%",
+          "tag2": 100,
+          "tag3": 2,
+          "gender": "m",
+          "fairrank": 4,
+          "scorerank": 8,
+          "rank": 8
+        },
+        {
+          "id": 20,
+          "name": "Susan Clark",
+          "score": 0.719530008545884,
+          "tag1": "99%",
+          "tag2": 100,
+          "tag3": 2,
+          "gender": "f",
+          "fairrank": 10,
+          "scorerank": 9,
+          "rank": 9
+        },
+        {
+          "id": 16,
+          "name": "Michael Young",
+          "score": 0.7030471958586693,
+          "tag1": "100%",
+          "tag2": 100,
+          "tag3": 3,
+          "gender": "m",
+          "fairrank": 6,
+          "scorerank": 10,
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "select",
+      "itemID": 12,
+      "timeOfEvent": 1601303094529,
+      "eventDuration": 0
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 12,
+      "timeOfEvent": 1601303096716,
+      "eventDuration": 2188
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "select",
+      "itemID": 18,
+      "timeOfEvent": 1601303096717,
+      "eventDuration": 0
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 18,
+      "timeOfEvent": 1601303097922,
+      "eventDuration": 1206
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "select",
+      "itemID": 19,
+      "timeOfEvent": 1601303097923,
+      "eventDuration": 0
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "unselect",
+      "itemID": 19,
+      "timeOfEvent": 1601303100853,
+      "eventDuration": 0
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 19,
+      "timeOfEvent": 1601303102177,
+      "eventDuration": 4255
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "select",
+      "itemID": 16,
+      "timeOfEvent": 1601303102179,
+      "eventDuration": 0
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 16,
+      "timeOfEvent": 1601303107104,
+      "eventDuration": 4927
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "select",
+      "itemID": 14,
+      "timeOfEvent": 1601303107105,
+      "eventDuration": 0
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 14,
+      "timeOfEvent": 1601303108432,
+      "eventDuration": 1327
+    },
+    {
+      "category": "timeStamps",
+      "eventName": "rankingOverallDuration",
+      "itemID": "none",
+      "timeOfEvent": 1601303108500,
+      "eventDuration": 18727
+    }
+  ],
+  "survey": [
+    {
+      "category": "serverEvent",
+      "eventName": "loadSurveyQuestion",
+      "itemID": 1,
+      "timeOfEvent": 1601303108686,
+      "eventDuration": 0
+    },
+    {
+      "question": 1,
+      "answers": [
+        "4 trust-4"
+      ],
+      "timeOfEvent": 1601303146140,
+      "category": "surveyQuestionAnswers"
+    },
+    {
+      "category": "serverEvent",
+      "eventName": "loadSurveyQuestion",
+      "itemID": 2,
+      "timeOfEvent": 1601303146141,
+      "eventDuration": 0
+    },
+    {
+      "question": 2,
+      "answers": [
+        "5 movingAssistnace-tasks-5",
+        "4 movingAssistnace-reviews-4",
+        "3 movingAssistnace-reliable-3",
+        "1 movingAssistnace-gender-1"
+      ],
+      "timeOfEvent": 1601303161036,
+      "category": "surveyQuestionAnswers"
+    },
+    {
+      "category": "serverEvent",
+      "eventName": "loadSurveyQuestion",
+      "itemID": 3,
+      "timeOfEvent": 1601303161036,
+      "eventDuration": 0
+    },
+    {
+      "question": 3,
+      "answers": [
+        "5 eventStaffing-tasks-5",
+        "4 eventStaffing-reviews-4",
+        "2 eventStaffing-reliable-2",
+        "1 eventStaffing-gender-1"
+      ],
+      "timeOfEvent": 1601303170622,
+      "category": "surveyQuestionAnswers"
+    },
+    {
+      "category": "serverEvent",
+      "eventName": "loadSurveyQuestion",
+      "itemID": 4,
+      "timeOfEvent": 1601303170622,
+      "eventDuration": 0
+    },
+    {
+      "question": 4,
+      "answers": [
+        "5 shopping-tasks-5",
+        "4 shopping-reviews-4",
+        "2 shopping-reliable-2",
+        "1 shopping-gender-1"
+      ],
+      "timeOfEvent": 1601303175339,
+      "category": "surveyQuestionAnswers"
+    },
+    {
+      "category": "serverEvent",
+      "eventName": "loadSurveyQuestion",
+      "itemID": 5,
+      "timeOfEvent": 1601303175339,
+      "eventDuration": 0
+    },
+    {
+      "question": 5,
+      "answers": [
+        "I made the decision almost entirely based on the number of previous tasks."
+      ],
+      "timeOfEvent": 1601303274090,
+      "category": "surveyQuestionAnswers"
+    },
+    {
+      "category": "serverEvent",
+      "eventName": "loadSurveyQuestion",
+      "itemID": 6,
+      "timeOfEvent": 1601303274090,
+      "eventDuration": 0
+    },
+    {
+      "question": 6,
+      "answers": [
+        "female female",
+        "1824 1824",
+        "highschool highschool",
+        "less10k less10k"
+      ],
+      "timeOfEvent": 1601303281530,
+      "category": "surveyQuestionAnswers"
+    },
+    {
+      "category": "btn",
+      "eventName": "finishedTest",
+      "itemID": "none",
+      "timeOfEvent": 1601303281530,
+      "eventDuration": 1601303281530
+    },
+    {
+      "category": "screenWidth",
+      "eventName": 1366,
+      "itemID": "none",
+      "timeOfEvent": 1601303281530,
+      "eventDuration": 0
+    },
+    {
+      "category": "timeStamps",
+      "eventName": "durationOverall",
+      "itemID": "none",
+      "timeOfEvent": 1601303281530,
+      "eventDuration": 1601303281530
+    }
+  ],
+  "treatmentOrder": [
+    2,
+    0,
+    1
+  ]
+}

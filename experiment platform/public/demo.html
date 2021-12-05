@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Test</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<script src="script.js"></script>
+<body onload="getRankingByUser();" style="margin:16px;">
+<div id="dialog-window">
+    <table id="header" style="width: 100%;">
+        <tr id="candidate-tags" style="line-height: 20px;">
+            <th>Candidates</th>
+
+        </tr>
+    </table>
+    <div id="scrollable-content">
+        <table id="ranking">
+        </table>
+    </div>
+</div>
+<div id="info-box">
+    <div id="info-text" style="text-align: center;">
+        <p>Please select <b>4</b> candidates that you would like to hire for the task:
+            <p/>
+        <b id="task" style="font-size: 1.5rem;"></b>
+           </p>
+        <p>To select a candidate, click the profile in the list on the right. You may unselect a
+            candidate by clicking again.</p>
+        <p id="error-box"></p>
+    </div>
+    <div id="info-text_2" style="text-align: center;"><b style="font-size: 1.3rem; text-decoration: underline;">Task Description</b>
+        </p><p id="task_description"></p></div>
+    <div>
+        <p style="font-size: 1.2em; font-weight: bolder;">Please ensure that the order of this list reflects your candidate preference.</p>
+        <ol id ="priority-list">
+            <li class="" id="1-li"></li>
+            <li class="" id="2-li"></li>
+            <li class="" id="3-li"></li>
+            <li class="" id="4-li"></li>
+        </ol>
+    </div>
+    <button type="button" onclick="getNextRanking();">Submit Answer</button>
+</div>
+</body>
+</html>

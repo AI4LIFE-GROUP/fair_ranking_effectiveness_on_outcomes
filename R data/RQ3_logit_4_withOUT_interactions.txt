@@ -1,0 +1,21 @@
+> #######without interactions
+> dat = read.csv("anova_data.csv")
+> dat = dat[dat$rtype_num == 2 | dat$rtype_num == 3 | dat$rtype_num == 4 | dat$rtype_num == 5,]
+> dat$FLIP <- ifelse(dat$rtype_num == 1 | dat$rtype_num == 3 | dat$rtype_num == 5, 1, 0)
+> ##4
+> dat$percent_disadvantaged_selected <- ifelse(dat$rtype_num == 2 | dat$rtype_num == 4,dat$selected_4, dat$selected_4_male) #4 selections
+> model_random_rabbit_4 <-glm(percent_disadvantaged_selected ~ task + ranking_type +FLIP + as.factor(data_order),family="quasibinomial", data=dat)
+> coeftest(model_random_rabbit_4, vcov.=vcovCL(model_random_rabbit_4, cluster = dat$uID, type = "HC0"))
+
+z test of coefficients:
+
+                         Estimate Std. Error  z value  Pr(>|z|)    
+(Intercept)            -0.7803160  0.0476454 -16.3776 < 2.2e-16 ***
+taskmoving             -0.0748684  0.0567018  -1.3204  0.186705    
+taskshopping            0.0102569  0.0554852   0.1849  0.853340    
+ranking_typeTaskRabbit -0.1829332  0.0345429  -5.2958 1.185e-07 ***
+FLIP                   -0.0912006  0.0344775  -2.6452  0.008164 ** 
+as.factor(data_order)1 -0.0072587  0.0424052  -0.1712  0.864086    
+as.factor(data_order)2  0.0322221  0.0420699   0.7659  0.443725    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1

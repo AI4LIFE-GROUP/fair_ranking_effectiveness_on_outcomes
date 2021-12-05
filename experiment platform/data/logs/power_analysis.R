@@ -1,0 +1,7 @@
+setwd("C:\\Users\\tomsu\\Desktop\\fairnesstransparency\\data\\logs")
+install.packages("pwr")
+library("pwr")
+pow <- pwr.t2n.test(n1 = 180, n2 = 180, d = 0.5)
+plot(pow)
+pow_prop <- pwr.2p.test(h = 0.5, n = , sig.level =0.01, power = 0.8)
+plot(pow_prop)

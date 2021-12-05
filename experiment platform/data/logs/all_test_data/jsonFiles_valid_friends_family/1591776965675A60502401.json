@@ -1,0 +1,1412 @@
+{
+  "briefing": [
+    {
+      "category": "briefingEvent",
+      "eventName": "displayBriefingStep",
+      "itemID": 1,
+      "timeOfEvent": 1591777102153,
+      "eventDuration": 0
+    },
+    {
+      "category": "briefingEvent",
+      "eventName": "displayBriefingStep",
+      "itemID": 2,
+      "timeOfEvent": 1591777107823,
+      "eventDuration": 0
+    },
+    {
+      "category": "briefingEvent",
+      "eventName": "displayBriefingStep",
+      "itemID": 3,
+      "timeOfEvent": 1591777113664,
+      "eventDuration": 0
+    },
+    {
+      "category": "briefingEvent",
+      "eventName": "displayBriefingStep",
+      "itemID": 4,
+      "timeOfEvent": 1591777130447,
+      "eventDuration": 0
+    },
+    {
+      "category": "briefingEvent",
+      "eventName": "displayBriefingStep",
+      "itemID": 5,
+      "timeOfEvent": 1591777141408,
+      "eventDuration": 0
+    },
+    {
+      "category": "briefingEvent",
+      "eventName": "displayBriefingStep",
+      "itemID": 6,
+      "timeOfEvent": 1591777154115,
+      "eventDuration": 0
+    },
+    {
+      "category": "briefingEvent",
+      "eventName": "displayBriefingStep",
+      "itemID": 4,
+      "timeOfEvent": 1591777184296,
+      "eventDuration": 0
+    },
+    {
+      "category": "briefingEvent",
+      "eventName": "displayBriefingStep",
+      "itemID": 5,
+      "timeOfEvent": 1591777184958,
+      "eventDuration": 0
+    },
+    {
+      "category": "briefingEvent",
+      "eventName": "displayBriefingStep",
+      "itemID": 6,
+      "timeOfEvent": 1591777186467,
+      "eventDuration": 0
+    },
+    {
+      "category": "timeStamps",
+      "eventName": "briefingDuration",
+      "itemID": "none",
+      "timeOfEvent": 1591777195771,
+      "eventDuration": null
+    }
+  ],
+  "ranking": [
+    {
+      "category": "serverEvent",
+      "eventName": "loadNewRankingType",
+      "itemID": 2,
+      "timeOfEvent": 1591777197389,
+      "eventDuration": 0
+    },
+    {
+      "category": "rankingRepresentation",
+      "timeOfEvent": 1591777197389,
+      "ranking": [
+        {
+          "id": 8,
+          "tag1": 9.7,
+          "tag2": 9.2,
+          "totalExp": 18.9,
+          "name": "Katherine Hall",
+          "gender": "f",
+          "score": 9.2,
+          "score_rank": 17,
+          "xp_ranking": 1,
+          "totalRank": 12,
+          "rank": 1
+        },
+        {
+          "id": 0,
+          "tag1": 9.9,
+          "tag2": 8.5,
+          "totalExp": 18.4,
+          "name": "Sharon Thomas",
+          "gender": "f",
+          "score": 10,
+          "score_rank": 1,
+          "xp_ranking": 2,
+          "totalRank": 7,
+          "rank": 2
+        },
+        {
+          "id": 6,
+          "tag1": 8.1,
+          "tag2": 9.9,
+          "totalExp": 18,
+          "name": "Jessica Walker",
+          "gender": "f",
+          "score": 9.4,
+          "score_rank": 13,
+          "xp_ranking": 3,
+          "totalRank": 5,
+          "rank": 3
+        },
+        {
+          "id": 10,
+          "tag1": 9.4,
+          "tag2": 6.7,
+          "totalExp": 16.1,
+          "name": "Donald Brown",
+          "gender": "m",
+          "score": 10,
+          "score_rank": 2,
+          "xp_ranking": 4,
+          "totalRank": 11,
+          "rank": 4
+        },
+        {
+          "id": 1,
+          "tag1": 7.5,
+          "tag2": 8.3,
+          "totalExp": 15.8,
+          "name": "Elizabeth Phillips",
+          "gender": "f",
+          "score": 9.9,
+          "score_rank": 3,
+          "xp_ranking": 5,
+          "totalRank": 2,
+          "rank": 5
+        },
+        {
+          "id": 4,
+          "tag1": 6.5,
+          "tag2": 7.9,
+          "totalExp": 14.4,
+          "name": "Helen Martin",
+          "gender": "f",
+          "score": 9.6,
+          "score_rank": 9,
+          "xp_ranking": 6,
+          "totalRank": 15,
+          "rank": 6
+        },
+        {
+          "id": 5,
+          "tag1": 5.5,
+          "tag2": 8.1,
+          "totalExp": 13.6,
+          "name": "Samantha Martin",
+          "gender": "f",
+          "score": 9.5,
+          "score_rank": 11,
+          "xp_ranking": 7,
+          "totalRank": 8,
+          "rank": 7
+        },
+        {
+          "id": 18,
+          "tag1": 3.9,
+          "tag2": 9,
+          "totalExp": 12.9,
+          "name": "Edward Lewis",
+          "gender": "m",
+          "score": 9.2,
+          "score_rank": 18,
+          "xp_ranking": 8,
+          "totalRank": 13,
+          "rank": 8
+        },
+        {
+          "id": 11,
+          "tag1": 4.5,
+          "tag2": 8.3,
+          "totalExp": 12.8,
+          "name": "John Cook",
+          "gender": "m",
+          "score": 9.9,
+          "score_rank": 4,
+          "xp_ranking": 9,
+          "totalRank": 19,
+          "rank": 9
+        },
+        {
+          "id": 19,
+          "tag1": 3.2,
+          "tag2": 9.2,
+          "totalExp": 12.4,
+          "name": "Mark Miller",
+          "gender": "m",
+          "score": 9.1,
+          "score_rank": 20,
+          "xp_ranking": 10,
+          "totalRank": 1,
+          "rank": 10
+        },
+        {
+          "id": 3,
+          "tag1": 3.9,
+          "tag2": 7.7,
+          "totalExp": 11.6,
+          "name": "Patricia Davis",
+          "gender": "f",
+          "score": 9.7,
+          "score_rank": 7,
+          "xp_ranking": 11,
+          "totalRank": 6,
+          "rank": 11
+        },
+        {
+          "id": 13,
+          "tag1": 4.3,
+          "tag2": 6.7,
+          "totalExp": 11,
+          "name": "Andrew Moore",
+          "gender": "m",
+          "score": 9.7,
+          "score_rank": 8,
+          "xp_ranking": 12,
+          "totalRank": 3,
+          "rank": 12
+        },
+        {
+          "id": 12,
+          "tag1": 2.8,
+          "tag2": 7.9,
+          "totalExp": 10.7,
+          "name": "Daniel Wright",
+          "gender": "m",
+          "score": 9.8,
+          "score_rank": 6,
+          "xp_ranking": 13,
+          "totalRank": 20,
+          "rank": 13
+        },
+        {
+          "id": 2,
+          "tag1": 9.5,
+          "tag2": 1.1,
+          "totalExp": 10.6,
+          "name": "Ashley Robinson",
+          "gender": "f",
+          "score": 9.8,
+          "score_rank": 5,
+          "xp_ranking": 14,
+          "totalRank": 4,
+          "rank": 14
+        },
+        {
+          "id": 9,
+          "tag1": 5.1,
+          "tag2": 5,
+          "totalExp": 10.1,
+          "name": "Kathleen Taylor",
+          "gender": "f",
+          "score": 9.1,
+          "score_rank": 19,
+          "xp_ranking": 15,
+          "totalRank": 18,
+          "rank": 15
+        },
+        {
+          "id": 16,
+          "tag1": 3.4,
+          "tag2": 4.9,
+          "totalExp": 8.3,
+          "name": "Andrew Davis",
+          "gender": "m",
+          "score": 9.4,
+          "score_rank": 14,
+          "xp_ranking": 16,
+          "totalRank": 17,
+          "rank": 16
+        },
+        {
+          "id": 14,
+          "tag1": 2.1,
+          "tag2": 6.1,
+          "totalExp": 8.2,
+          "name": "Paul Martin",
+          "gender": "m",
+          "score": 9.6,
+          "score_rank": 10,
+          "xp_ranking": 17,
+          "totalRank": 10,
+          "rank": 17
+        },
+        {
+          "id": 15,
+          "tag1": 2,
+          "tag2": 6.2,
+          "totalExp": 8.2,
+          "name": "Paul Phillips",
+          "gender": "m",
+          "score": 9.5,
+          "score_rank": 12,
+          "xp_ranking": 18,
+          "totalRank": 9,
+          "rank": 18
+        },
+        {
+          "id": 17,
+          "tag1": 1.2,
+          "tag2": 5.2,
+          "totalExp": 6.4,
+          "name": "Matthew Adams",
+          "gender": "m",
+          "score": 9.3,
+          "score_rank": 16,
+          "xp_ranking": 19,
+          "totalRank": 16,
+          "rank": 19
+        },
+        {
+          "id": 7,
+          "tag1": 1.4,
+          "tag2": 4.1,
+          "totalExp": 5.5,
+          "name": "Cynthia Walker",
+          "gender": "f",
+          "score": 9.3,
+          "score_rank": 15,
+          "xp_ranking": 20,
+          "totalRank": 14,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 6,
+      "timeOfEvent": 1591777208371,
+      "eventDuration": 10827
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 1,
+      "timeOfEvent": 1591777210738,
+      "eventDuration": 2367
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 12,
+      "timeOfEvent": 1591777221002,
+      "eventDuration": 1753
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 6,
+      "timeOfEvent": 1591777221094,
+      "eventDuration": 92
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 8,
+      "timeOfEvent": 1591777221162,
+      "eventDuration": 67
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "select",
+      "itemID": 8,
+      "timeOfEvent": 1591777221957,
+      "eventDuration": 0
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 8,
+      "timeOfEvent": 1591777222661,
+      "eventDuration": 1250
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 6,
+      "timeOfEvent": 1591777226911,
+      "eventDuration": 1309
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 8,
+      "timeOfEvent": 1591777226961,
+      "eventDuration": 17
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 0,
+      "timeOfEvent": 1591777226995,
+      "eventDuration": 34
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "select",
+      "itemID": 0,
+      "timeOfEvent": 1591777232854,
+      "eventDuration": 0
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "longHover",
+      "itemID": 0,
+      "timeOfEvent": 1591777233711,
+      "eventDuration": 6450
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "select",
+      "itemID": 10,
+      "timeOfEvent": 1591777237858,
+      "eventDuration": 0
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 10,
+      "timeOfEvent": 1591777238528,
+      "eventDuration": 4784
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 6,
+      "timeOfEvent": 1591777239144,
+      "eventDuration": 600
+    },
+    {
+      "category": "serverEvent",
+      "eventName": "loadNewRankingType",
+      "itemID": 2,
+      "timeOfEvent": 1591777242011,
+      "eventDuration": 0
+    },
+    {
+      "category": "rankingRepresentation",
+      "timeOfEvent": 1591777242011,
+      "ranking": [
+        {
+          "id": 7,
+          "tag1": 8.4,
+          "tag2": 9.2,
+          "totalExp": 17.6,
+          "name": "Pamela Peterson",
+          "gender": "f",
+          "score": 9.3,
+          "score_rank": 15,
+          "xp_ranking": 1,
+          "totalRank": 13,
+          "rank": 1
+        },
+        {
+          "id": 6,
+          "tag1": 8.3,
+          "tag2": 8.1,
+          "totalExp": 16.4,
+          "name": "Cynthia Clark",
+          "gender": "f",
+          "score": 9.4,
+          "score_rank": 13,
+          "xp_ranking": 2,
+          "totalRank": 11,
+          "rank": 2
+        },
+        {
+          "id": 4,
+          "tag1": 9.7,
+          "tag2": 6.1,
+          "totalExp": 15.8,
+          "name": "Deborah Roberts",
+          "gender": "f",
+          "score": 9.6,
+          "score_rank": 9,
+          "xp_ranking": 3,
+          "totalRank": 9,
+          "rank": 3
+        },
+        {
+          "id": 2,
+          "tag1": 5.7,
+          "tag2": 8.6,
+          "totalExp": 14.3,
+          "name": "Lisa Taylor",
+          "gender": "f",
+          "score": 9.8,
+          "score_rank": 5,
+          "xp_ranking": 4,
+          "totalRank": 14,
+          "rank": 4
+        },
+        {
+          "id": 0,
+          "tag1": 6.8,
+          "tag2": 7.4,
+          "totalExp": 14.2,
+          "name": "Amy Young",
+          "gender": "f",
+          "score": 10,
+          "score_rank": 1,
+          "xp_ranking": 5,
+          "totalRank": 3,
+          "rank": 5
+        },
+        {
+          "id": 3,
+          "tag1": 5,
+          "tag2": 8.9,
+          "totalExp": 13.9,
+          "name": "Kimberly Campbell",
+          "gender": "f",
+          "score": 9.7,
+          "score_rank": 7,
+          "xp_ranking": 6,
+          "totalRank": 10,
+          "rank": 6
+        },
+        {
+          "id": 11,
+          "tag1": 7.6,
+          "tag2": 6.1,
+          "totalExp": 13.7,
+          "name": "Larry Taylor",
+          "gender": "m",
+          "score": 9.9,
+          "score_rank": 4,
+          "xp_ranking": 7,
+          "totalRank": 12,
+          "rank": 7
+        },
+        {
+          "id": 16,
+          "tag1": 8.7,
+          "tag2": 4.3,
+          "totalExp": 13,
+          "name": "David Lee",
+          "gender": "m",
+          "score": 9.4,
+          "score_rank": 14,
+          "xp_ranking": 8,
+          "totalRank": 8,
+          "rank": 8
+        },
+        {
+          "id": 1,
+          "tag1": 3.9,
+          "tag2": 9,
+          "totalExp": 12.9,
+          "name": "Michelle Smith",
+          "gender": "f",
+          "score": 9.9,
+          "score_rank": 3,
+          "xp_ranking": 9,
+          "totalRank": 5,
+          "rank": 9
+        },
+        {
+          "id": 18,
+          "tag1": 9.9,
+          "tag2": 2.7,
+          "totalExp": 12.6,
+          "name": "Anthony Morris",
+          "gender": "m",
+          "score": 9.2,
+          "score_rank": 18,
+          "xp_ranking": 10,
+          "totalRank": 18,
+          "rank": 10
+        },
+        {
+          "id": 9,
+          "tag1": 8.3,
+          "tag2": 3.9,
+          "totalExp": 12.2,
+          "name": "Lisa Baker",
+          "gender": "f",
+          "score": 9.1,
+          "score_rank": 19,
+          "xp_ranking": 11,
+          "totalRank": 15,
+          "rank": 11
+        },
+        {
+          "id": 14,
+          "tag1": 8.5,
+          "tag2": 3.6,
+          "totalExp": 12.1,
+          "name": "Timothy Jackson",
+          "gender": "m",
+          "score": 9.6,
+          "score_rank": 10,
+          "xp_ranking": 12,
+          "totalRank": 4,
+          "rank": 12
+        },
+        {
+          "id": 8,
+          "tag1": 7.1,
+          "tag2": 4.7,
+          "totalExp": 11.8,
+          "name": "Sandra Peterson",
+          "gender": "f",
+          "score": 9.2,
+          "score_rank": 17,
+          "xp_ranking": 13,
+          "totalRank": 16,
+          "rank": 13
+        },
+        {
+          "id": 10,
+          "tag1": 6.4,
+          "tag2": 5,
+          "totalExp": 11.4,
+          "name": "Ryan Lewis",
+          "gender": "m",
+          "score": 10,
+          "score_rank": 2,
+          "xp_ranking": 14,
+          "totalRank": 1,
+          "rank": 14
+        },
+        {
+          "id": 12,
+          "tag1": 8.9,
+          "tag2": 1.6,
+          "totalExp": 10.5,
+          "name": "Jonathan Phillips",
+          "gender": "m",
+          "score": 9.8,
+          "score_rank": 6,
+          "xp_ranking": 15,
+          "totalRank": 20,
+          "rank": 15
+        },
+        {
+          "id": 19,
+          "tag1": 1.8,
+          "tag2": 8.3,
+          "totalExp": 10.1,
+          "name": "Robert Thomas",
+          "gender": "m",
+          "score": 9.1,
+          "score_rank": 20,
+          "xp_ranking": 16,
+          "totalRank": 2,
+          "rank": 16
+        },
+        {
+          "id": 15,
+          "tag1": 4.6,
+          "tag2": 4.8,
+          "totalExp": 9.4,
+          "name": "Thomas Taylor",
+          "gender": "m",
+          "score": 9.5,
+          "score_rank": 12,
+          "xp_ranking": 17,
+          "totalRank": 7,
+          "rank": 17
+        },
+        {
+          "id": 13,
+          "tag1": 1.5,
+          "tag2": 6.3,
+          "totalExp": 7.8,
+          "name": "Joseph Taylor",
+          "gender": "m",
+          "score": 9.7,
+          "score_rank": 8,
+          "xp_ranking": 18,
+          "totalRank": 17,
+          "rank": 18
+        },
+        {
+          "id": 5,
+          "tag1": 5.7,
+          "tag2": 2,
+          "totalExp": 7.7,
+          "name": "Melissa Lewis",
+          "gender": "f",
+          "score": 9.5,
+          "score_rank": 11,
+          "xp_ranking": 19,
+          "totalRank": 6,
+          "rank": 19
+        },
+        {
+          "id": 17,
+          "tag1": 5.9,
+          "tag2": 1.2,
+          "totalExp": 7.1,
+          "name": "Jacob Wright",
+          "gender": "m",
+          "score": 9.3,
+          "score_rank": 16,
+          "xp_ranking": 20,
+          "totalRank": 19,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 4,
+      "timeOfEvent": 1591777245094,
+      "eventDuration": 667
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "select",
+      "itemID": 7,
+      "timeOfEvent": 1591777246356,
+      "eventDuration": 0
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 7,
+      "timeOfEvent": 1591777247311,
+      "eventDuration": 2167
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 6,
+      "timeOfEvent": 1591777248811,
+      "eventDuration": 1500
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "select",
+      "itemID": 2,
+      "timeOfEvent": 1591777249757,
+      "eventDuration": 0
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 2,
+      "timeOfEvent": 1591777255655,
+      "eventDuration": 6761
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 3,
+      "timeOfEvent": 1591777257083,
+      "eventDuration": 1428
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 16,
+      "timeOfEvent": 1591777260216,
+      "eventDuration": 3133
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 14,
+      "timeOfEvent": 1591777261625,
+      "eventDuration": 1409
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 2,
+      "timeOfEvent": 1591777262910,
+      "eventDuration": 1285
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "select",
+      "itemID": 6,
+      "timeOfEvent": 1591777263888,
+      "eventDuration": 0
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 6,
+      "timeOfEvent": 1591777264427,
+      "eventDuration": 1383
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 7,
+      "timeOfEvent": 1591777264444,
+      "eventDuration": 17
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 4,
+      "timeOfEvent": 1591777264794,
+      "eventDuration": 317
+    },
+    {
+      "category": "serverEvent",
+      "eventName": "loadNewRankingType",
+      "itemID": 2,
+      "timeOfEvent": 1591777266093,
+      "eventDuration": 0
+    },
+    {
+      "category": "rankingRepresentation",
+      "timeOfEvent": 1591777266093,
+      "ranking": [
+        {
+          "id": 0,
+          "tag1": 9.1,
+          "tag2": 9.6,
+          "totalExp": 18.7,
+          "name": "Kimberly Roberts",
+          "gender": "f",
+          "score": 10,
+          "score_rank": 1,
+          "xp_ranking": 1,
+          "totalRank": 1,
+          "rank": 1
+        },
+        {
+          "id": 7,
+          "tag1": 8.8,
+          "tag2": 9,
+          "totalExp": 17.8,
+          "name": "Amanda Wright",
+          "gender": "f",
+          "score": 9.3,
+          "score_rank": 15,
+          "xp_ranking": 2,
+          "totalRank": 7,
+          "rank": 2
+        },
+        {
+          "id": 13,
+          "tag1": 7.3,
+          "tag2": 9.5,
+          "totalExp": 16.8,
+          "name": "Andrew King",
+          "gender": "m",
+          "score": 9.7,
+          "score_rank": 8,
+          "xp_ranking": 3,
+          "totalRank": 2,
+          "rank": 3
+        },
+        {
+          "id": 5,
+          "tag1": 8.6,
+          "tag2": 8.2,
+          "totalExp": 16.8,
+          "name": "Shirley Peterson",
+          "gender": "f",
+          "score": 9.5,
+          "score_rank": 11,
+          "xp_ranking": 4,
+          "totalRank": 12,
+          "rank": 4
+        },
+        {
+          "id": 9,
+          "tag1": 9.9,
+          "tag2": 6.4,
+          "totalExp": 16.3,
+          "name": "Donna Martin",
+          "gender": "f",
+          "score": 9.1,
+          "score_rank": 19,
+          "xp_ranking": 5,
+          "totalRank": 18,
+          "rank": 5
+        },
+        {
+          "id": 11,
+          "tag1": 8.3,
+          "tag2": 7.7,
+          "totalExp": 16,
+          "name": "Brian Thompson",
+          "gender": "m",
+          "score": 9.9,
+          "score_rank": 4,
+          "xp_ranking": 6,
+          "totalRank": 11,
+          "rank": 6
+        },
+        {
+          "id": 6,
+          "tag1": 5.3,
+          "tag2": 9.3,
+          "totalExp": 14.6,
+          "name": "Sharon Davis",
+          "gender": "f",
+          "score": 9.4,
+          "score_rank": 13,
+          "xp_ranking": 7,
+          "totalRank": 14,
+          "rank": 7
+        },
+        {
+          "id": 12,
+          "tag1": 6.3,
+          "tag2": 7.9,
+          "totalExp": 14.2,
+          "name": "Eric Robinson",
+          "gender": "m",
+          "score": 9.8,
+          "score_rank": 6,
+          "xp_ranking": 8,
+          "totalRank": 8,
+          "rank": 8
+        },
+        {
+          "id": 16,
+          "tag1": 5.5,
+          "tag2": 8.7,
+          "totalExp": 14.2,
+          "name": "Joseph Collins",
+          "gender": "m",
+          "score": 9.4,
+          "score_rank": 14,
+          "xp_ranking": 9,
+          "totalRank": 15,
+          "rank": 9
+        },
+        {
+          "id": 4,
+          "tag1": 4.9,
+          "tag2": 8.7,
+          "totalExp": 13.6,
+          "name": "Nicole Hall",
+          "gender": "f",
+          "score": 9.6,
+          "score_rank": 9,
+          "xp_ranking": 10,
+          "totalRank": 3,
+          "rank": 10
+        },
+        {
+          "id": 1,
+          "tag1": 5.5,
+          "tag2": 7.6,
+          "totalExp": 13.1,
+          "name": "Michelle Clark",
+          "gender": "f",
+          "score": 9.9,
+          "score_rank": 3,
+          "xp_ranking": 11,
+          "totalRank": 20,
+          "rank": 11
+        },
+        {
+          "id": 2,
+          "tag1": 7.6,
+          "tag2": 3.6,
+          "totalExp": 11.2,
+          "name": "Patricia Taylor",
+          "gender": "f",
+          "score": 9.8,
+          "score_rank": 5,
+          "xp_ranking": 12,
+          "totalRank": 9,
+          "rank": 12
+        },
+        {
+          "id": 15,
+          "tag1": 6.3,
+          "tag2": 3.4,
+          "totalExp": 9.7,
+          "name": "Timothy Murphy",
+          "gender": "m",
+          "score": 9.5,
+          "score_rank": 12,
+          "xp_ranking": 13,
+          "totalRank": 4,
+          "rank": 13
+        },
+        {
+          "id": 14,
+          "tag1": 6.1,
+          "tag2": 3.5,
+          "totalExp": 9.6,
+          "name": "Kevin Williams",
+          "gender": "m",
+          "score": 9.6,
+          "score_rank": 10,
+          "xp_ranking": 14,
+          "totalRank": 6,
+          "rank": 14
+        },
+        {
+          "id": 18,
+          "tag1": 6.7,
+          "tag2": 2.6,
+          "totalExp": 9.3,
+          "name": "Justin Cook",
+          "gender": "m",
+          "score": 9.2,
+          "score_rank": 18,
+          "xp_ranking": 15,
+          "totalRank": 13,
+          "rank": 15
+        },
+        {
+          "id": 3,
+          "tag1": 7,
+          "tag2": 1.2,
+          "totalExp": 8.2,
+          "name": "Laura Walker",
+          "gender": "f",
+          "score": 9.7,
+          "score_rank": 7,
+          "xp_ranking": 16,
+          "totalRank": 19,
+          "rank": 16
+        },
+        {
+          "id": 10,
+          "tag1": 1.6,
+          "tag2": 5,
+          "totalExp": 6.6,
+          "name": "Christopher Scott",
+          "gender": "m",
+          "score": 10,
+          "score_rank": 2,
+          "xp_ranking": 17,
+          "totalRank": 16,
+          "rank": 17
+        },
+        {
+          "id": 17,
+          "tag1": 4.7,
+          "tag2": 1.7,
+          "totalExp": 6.4,
+          "name": "Eric Nelson",
+          "gender": "m",
+          "score": 9.3,
+          "score_rank": 16,
+          "xp_ranking": 18,
+          "totalRank": 5,
+          "rank": 18
+        },
+        {
+          "id": 8,
+          "tag1": 2.5,
+          "tag2": 3.9,
+          "totalExp": 6.4,
+          "name": "Mary Jackson",
+          "gender": "f",
+          "score": 9.2,
+          "score_rank": 17,
+          "xp_ranking": 19,
+          "totalRank": 10,
+          "rank": 19
+        },
+        {
+          "id": 19,
+          "tag1": 2.8,
+          "tag2": 1.9,
+          "totalExp": 4.7,
+          "name": "Christopher White",
+          "gender": "m",
+          "score": 9.1,
+          "score_rank": 20,
+          "xp_ranking": 20,
+          "totalRank": 17,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 9,
+      "timeOfEvent": 1591777271527,
+      "eventDuration": 50
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 10,
+      "timeOfEvent": 1591777280123,
+      "eventDuration": 1641
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 15,
+      "timeOfEvent": 1591777283133,
+      "eventDuration": 3009
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 16,
+      "timeOfEvent": 1591777283760,
+      "eventDuration": 627
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 1,
+      "timeOfEvent": 1591777284944,
+      "eventDuration": 1183
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "longHover",
+      "itemID": 15,
+      "timeOfEvent": 1591777298674,
+      "eventDuration": 8477
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "longHover",
+      "itemID": 1,
+      "timeOfEvent": 1591777300868,
+      "eventDuration": 2194
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 18,
+      "timeOfEvent": 1591777300927,
+      "eventDuration": 58
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "select",
+      "itemID": 15,
+      "timeOfEvent": 1591777301673,
+      "eventDuration": 0
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 15,
+      "timeOfEvent": 1591777302043,
+      "eventDuration": 1100
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 14,
+      "timeOfEvent": 1591777302970,
+      "eventDuration": 927
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 12,
+      "timeOfEvent": 1591777303327,
+      "eventDuration": 317
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "select",
+      "itemID": 16,
+      "timeOfEvent": 1591777303807,
+      "eventDuration": 0
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "longHover",
+      "itemID": 16,
+      "timeOfEvent": 1591777305460,
+      "eventDuration": 2100
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 12,
+      "timeOfEvent": 1591777305710,
+      "eventDuration": 230
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "unselect",
+      "itemID": 16,
+      "timeOfEvent": 1591777306177,
+      "eventDuration": 0
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 16,
+      "timeOfEvent": 1591777306510,
+      "eventDuration": 783
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "select",
+      "itemID": 12,
+      "timeOfEvent": 1591777307023,
+      "eventDuration": 0
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 12,
+      "timeOfEvent": 1591777308041,
+      "eventDuration": 1514
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 2,
+      "timeOfEvent": 1591777308160,
+      "eventDuration": 99
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 1,
+      "timeOfEvent": 1591777308210,
+      "eventDuration": 50
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "unselect",
+      "itemID": 15,
+      "timeOfEvent": 1591777308761,
+      "eventDuration": 0
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "select",
+      "itemID": 15,
+      "timeOfEvent": 1591777310166,
+      "eventDuration": 0
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "longHover",
+      "itemID": 15,
+      "timeOfEvent": 1591777313177,
+      "eventDuration": 4833
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "select",
+      "itemID": 2,
+      "timeOfEvent": 1591777314605,
+      "eventDuration": 0
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 2,
+      "timeOfEvent": 1591777314960,
+      "eventDuration": 1700
+    },
+    {
+      "category": "mouseEvent",
+      "eventName": "firstHover",
+      "itemID": 1,
+      "timeOfEvent": 1591777314993,
+      "eventDuration": 17
+    },
+    {
+      "category": "timeStamps",
+      "eventName": "rankingOverallDuration",
+      "itemID": "none",
+      "timeOfEvent": 1591777316059,
+      "eventDuration": 49968
+    }
+  ],
+  "survey": [
+    {
+      "category": "serverEvent",
+      "eventName": "loadSurveyQuestion",
+      "itemID": -1,
+      "timeOfEvent": 1591777317341,
+      "eventDuration": 0
+    },
+    {
+      "question": -1,
+      "answers": [
+        "usedAssembly"
+      ],
+      "timeOfEvent": 1591777327078,
+      "category": "surveyQuestionAnswers"
+    },
+    {
+      "category": "serverEvent",
+      "eventName": "loadSurveyQuestion",
+      "itemID": 0,
+      "timeOfEvent": 1591777327079,
+      "eventDuration": 0
+    },
+    {
+      "question": 0,
+      "answers": [
+        "usedHome"
+      ],
+      "timeOfEvent": 1591777331943,
+      "category": "surveyQuestionAnswers"
+    },
+    {
+      "category": "serverEvent",
+      "eventName": "loadSurveyQuestion",
+      "itemID": 1,
+      "timeOfEvent": 1591777331943,
+      "eventDuration": 0
+    },
+    {
+      "question": 1,
+      "answers": [
+        "didSomethingElse",
+        "Experience + gender"
+      ],
+      "timeOfEvent": 1591777445119,
+      "category": "surveyQuestionAnswers"
+    },
+    {
+      "category": "serverEvent",
+      "eventName": "loadSurveyQuestion",
+      "itemID": 2,
+      "timeOfEvent": 1591777445119,
+      "eventDuration": 0
+    },
+    {
+      "question": 2,
+      "answers": [
+        "workExp",
+        "applicantSkills",
+        "applicantEducation"
+      ],
+      "timeOfEvent": 1591777468241,
+      "category": "surveyQuestionAnswers"
+    },
+    {
+      "category": "serverEvent",
+      "eventName": "loadSurveyQuestion",
+      "itemID": 3,
+      "timeOfEvent": 1591777468241,
+      "eventDuration": 0
+    },
+    {
+      "question": 3,
+      "answers": [
+        "The female applicants tended to have more work related experience."
+      ],
+      "timeOfEvent": 1591777586717,
+      "category": "surveyQuestionAnswers"
+    },
+    {
+      "category": "serverEvent",
+      "eventName": "loadSurveyQuestion",
+      "itemID": 4,
+      "timeOfEvent": 1591777586717,
+      "eventDuration": 0
+    },
+    {
+      "question": 4,
+      "answers": [
+        "workExp",
+        "applicantSkills",
+        "applicantEducation"
+      ],
+      "timeOfEvent": 1591777622455,
+      "category": "surveyQuestionAnswers"
+    },
+    {
+      "category": "btn",
+      "eventName": "finishedTest",
+      "itemID": "none",
+      "timeOfEvent": 1591777622456,
+      "eventDuration": 1591777622455
+    },
+    {
+      "category": "screenWidth",
+      "eventName": 1538,
+      "itemID": "none",
+      "timeOfEvent": 1591777622456,
+      "eventDuration": 0
+    },
+    {
+      "category": "timeStamps",
+      "eventName": "durationOverall",
+      "itemID": "none",
+      "timeOfEvent": 1591777622456,
+      "eventDuration": 1591777622455
+    }
+  ]
+}

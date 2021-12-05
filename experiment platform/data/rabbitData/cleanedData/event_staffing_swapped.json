@@ -1,0 +1,114 @@
+{
+    "totaldata": [
+        {
+            "id": 11,
+            "name": "name",
+            "score": 0.799641978367866,
+            "tag1": "95%",
+            "tag2": 96,
+            "tag3": 0,
+            "gender": "f",
+            "fairrank": 1,
+            "scorerank": 1
+        },
+        {
+            "id": 12,
+            "name": "name",
+            "score": 0.7412400221038719,
+            "tag1": "98%",
+            "tag2": 100,
+            "tag3": 10,
+            "gender": "m",
+            "fairrank": 2,
+            "scorerank": 6
+        },
+        {
+            "id": 13,
+            "name": "name",
+            "score": 0.788158103114649,
+            "tag1": "98%",
+            "tag2": 100,
+            "tag3": 1,
+            "gender": "f",
+            "fairrank": 3,
+            "scorerank": 2
+        },
+        {
+            "id": 14,
+            "name": "name",
+            "score": 0.7258889517568552,
+            "tag1": "93%",
+            "tag2": 100,
+            "tag3": 2,
+            "gender": "m",
+            "fairrank": 4,
+            "scorerank": 8
+        },
+        {
+            "id": 15,
+            "name": "name",
+            "score": 0.7805555452827792,
+            "tag1": "100%",
+            "tag2": 78,
+            "tag3": 0,
+            "gender": "f",
+            "fairrank": 5,
+            "scorerank": 3
+        },
+        {
+            "id": 16,
+            "name": "name",
+            "score": 0.7030471958586693,
+            "tag1": "100%",
+            "tag2": 100,
+            "tag3": 3,
+            "gender": "m",
+            "fairrank": 6,
+            "scorerank": 10
+        },
+        {
+            "id": 17,
+            "name": "name",
+            "score": 0.7710606362667689,
+            "tag1": "98%",
+            "tag2": 100,
+            "tag3": 0,
+            "gender": "f",
+            "fairrank": 7,
+            "scorerank": 4
+        },
+        {
+            "id": 18,
+            "name": "name",
+            "score": 0.742341028683199,
+            "tag1": "100%",
+            "tag2": 100,
+            "tag3": 6,
+            "gender": "f",
+            "fairrank": 8,
+            "scorerank": 5
+        },
+        {
+            "id": 19,
+            "name": "name",
+            "score": 0.7375636107859171,
+            "tag1": "97%",
+            "tag2": 100,
+            "tag3": 2,
+            "gender": "f",
+            "fairrank": 9,
+            "scorerank": 7
+        },
+        {
+            "id": 20,
+            "name": "name",
+            "score": 0.719530008545884,
+            "tag1": "99%",
+            "tag2": 100,
+            "tag3": 2,
+            "gender": "f",
+            "fairrank": 10,
+            "scorerank": 9
+        }
+    ]
+}

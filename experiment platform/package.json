@@ -1,0 +1,27 @@
+{
+  "name": "transparency-fairness",
+  "version": "1.0.0",
+  "description": "Experiment for testing fairness conserving transparency",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fairness",
+    "transparency",
+    "explainability",
+    "interpretability"
+  ],
+  "author": "Tom Sühr, Himabindu Lakkaraju, Walter Lasecki, Sophie Hilgard",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "jquery": "^3.4.1",
+    "node-zip": "^1.1.1",
+    "nodejs": "0.0.0",
+    "xhr2": "^0.2.0"
+  }
+}

@@ -1,0 +1,94 @@
+{
+    "totaldata": [
+        {
+            "id": 1,
+            "name": "name",
+            "score": 0.7816051088060374,
+            "tag1": "100%",
+            "tag2": 100,
+            "tag3": 29,
+            "gender": "f"
+        },
+        {
+            "id": 2,
+            "name": "name",
+            "score": 0.7275222618635958,
+            "tag1": "100%",
+            "tag2": 100,
+            "tag3": 9,
+            "gender": "f"
+        },
+        {
+            "id": 3,
+            "name": "name",
+            "score": 0.6460437565642215,
+            "tag1": "99%",
+            "tag2": 100,
+            "tag3": 30,
+            "gender": "f"
+        },
+        {
+            "id": 4,
+            "name": "name",
+            "score": 0.6223792214449709,
+            "tag1": "100%",
+            "tag2": 100,
+            "tag3": 0,
+            "gender": "m"
+        },
+        {
+            "id": 5,
+            "name": "name",
+            "score": 0.5835910458620852,
+            "tag1": "100%",
+            "tag2": 0,
+            "tag3": 13,
+            "gender": "m"
+        },
+        {
+            "id": 6,
+            "name": "name",
+            "score": 0.328258503044142,
+            "tag1": "100%",
+            "tag2": 0,
+            "tag3": 1,
+            "gender": "f"
+        },
+        {
+            "id": 7,
+            "name": "name",
+            "score": 0.6203679789360828,
+            "tag1": null,
+            "tag2": 0,
+            "tag3": 0,
+            "gender": "f"
+        },
+        {
+            "id": 8,
+            "name": "name",
+            "score": 0.6006950836172846,
+            "tag1": null,
+            "tag2": 100,
+            "tag3": 0,
+            "gender": "f"
+        },
+        {
+            "id": 9,
+            "name": "name",
+            "score": 0.6006950836172846,
+            "tag1": null,
+            "tag2": 0,
+            "tag3": 0,
+            "gender": "m"
+        },
+        {
+            "id": 10,
+            "name": "name",
+            "score": 0.5866649724968338,
+            "tag1": null,
+            "tag2": 0,
+            "tag3": 0,
+            "gender": "f"
+        }
+    ]
+}

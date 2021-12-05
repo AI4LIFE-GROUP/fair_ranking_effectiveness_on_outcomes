@@ -1,0 +1,17 @@
+> ##1
+> dat$percent_disadvantaged_selected <- ifelse(dat$rtype_num == 2 | dat$rtype_num == 4,dat$selected_1, dat$selected_1_male) #4 selections
+> model_random_rabbit_1 <-glm(percent_disadvantaged_selected ~ task + ranking_type +FLIP + as.factor(data_order),family="quasibinomial", data=dat)
+> coeftest(model_random_rabbit_1, vcov.=vcovCL(model_random_rabbit_1, cluster = dat$uID, type = "HC0"))
+
+z test of coefficients:
+
+                          Estimate  Std. Error z value  Pr(>|z|)    
+(Intercept)            -1.0200e+00  1.5049e-01 -6.7782 1.217e-11 ***
+taskmoving              6.3511e-17  1.3539e-01  0.0000    1.0000    
+taskshopping            1.4435e-01  1.3568e-01  1.0638    0.2874    
+ranking_typeTaskRabbit -6.3342e-01  1.0059e-01 -6.2968 3.038e-10 ***
+FLIP                   -8.2514e-02  9.9564e-02 -0.8288    0.4072    
+as.factor(data_order)1  3.2109e-02  1.1776e-01  0.2727    0.7851    
+as.factor(data_order)2 -1.0419e-01  1.2602e-01 -0.8268    0.4084    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1

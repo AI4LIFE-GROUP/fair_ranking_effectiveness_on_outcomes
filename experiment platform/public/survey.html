@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Test</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<script src="script.js"></script>
+<body onload="loadSurveyQuestions();" style="margin:16px;">
+<p id="headline" style="font-size: 20px; text-align: center;">Survey</p>
+<p/>
+<div id="survey_text">
+    <div style="text-align: center; margin-top: 20px; font-size: 1.3em;" id ="ranking_description"></div>
+    <table id="ranking" class="survey-ranking">
+    </table>
+    <div id="survey_paragraph" class="survey" style="text-align: center; display: block;"></div>
+</div>
+
+<div id="btn_container">
+    <button id="btn_next" type="reset" onclick="nextQuestion();"><b>Next</b></button>
+</div>
+<div id="start_survey_btn" class="wrapper">
+</div>
+</body>
+</html>

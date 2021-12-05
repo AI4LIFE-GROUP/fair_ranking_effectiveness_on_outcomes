@@ -1,0 +1,190 @@
+{
+  "data": {
+    "female": [
+      {
+        "id": 0,
+        "tag1": 3.0,
+        "tag2": 7.7,
+        "totalExp": 10.7,
+        "name": "Candidate 1",
+        "gender": "f",
+        "score": 10.0
+      },
+      {
+        "id": 1,
+        "tag1": 2.6,
+        "tag2": 5.2,
+        "totalExp": 7.8,
+        "name": "Candidate 2",
+        "gender": "f",
+        "score": 9.9
+      },
+      {
+        "id": 2,
+        "tag1": 6.5,
+        "tag2": 5.9,
+        "totalExp": 12.4,
+        "name": "Candidate 3",
+        "gender": "f",
+        "score": 9.8
+      },
+      {
+        "id": 3,
+        "tag1": 1.3,
+        "tag2": 9.1,
+        "totalExp": 10.4,
+        "name": "Candidate 4",
+        "gender": "f",
+        "score": 9.7
+      },
+      {
+        "id": 4,
+        "tag1": 6.1,
+        "tag2": 9.4,
+        "totalExp": 15.5,
+        "name": "Candidate 5",
+        "gender": "f",
+        "score": 9.6
+      },
+      {
+        "id": 5,
+        "tag1": 9.5,
+        "tag2": 4.2,
+        "totalExp": 13.7,
+        "name": "Candidate 6",
+        "gender": "f",
+        "score": 9.5
+      },
+      {
+        "id": 6,
+        "tag1": 3.5,
+        "tag2": 6.2,
+        "totalExp": 9.7,
+        "name": "Candidate 7",
+        "gender": "f",
+        "score": 9.4
+      },
+      {
+        "id": 7,
+        "tag1": 7.9,
+        "tag2": 8.3,
+        "totalExp": 16.2,
+        "name": "Candidate 8",
+        "gender": "f",
+        "score": 9.3
+      },
+      {
+        "id": 8,
+        "tag1": 6.4,
+        "tag2": 1.3,
+        "totalExp": 7.7,
+        "name": "Candidate 9",
+        "gender": "f",
+        "score": 9.2
+      },
+      {
+        "id": 9,
+        "tag1": 8.9,
+        "tag2": 5.0,
+        "totalExp": 13.9,
+        "name": "Candidate 10",
+        "gender": "f",
+        "score": 9.1
+      }
+    ],
+    "male": [
+      {
+        "id": 10,
+        "tag1": 2.7,
+        "tag2": 7.9,
+        "totalExp": 10.6,
+        "name": "Candidate 11",
+        "gender": "m",
+        "score": 10.0
+      },
+      {
+        "id": 11,
+        "tag1": 7.1,
+        "tag2": 1.3,
+        "totalExp": 8.4,
+        "name": "Candidate 12",
+        "gender": "m",
+        "score": 9.9
+      },
+      {
+        "id": 12,
+        "tag1": 2.5,
+        "tag2": 4.2,
+        "totalExp": 6.7,
+        "name": "Candidate 13",
+        "gender": "m",
+        "score": 9.8
+      },
+      {
+        "id": 13,
+        "tag1": 7.8,
+        "tag2": 7.9,
+        "totalExp": 15.7,
+        "name": "Candidate 14",
+        "gender": "m",
+        "score": 9.7
+      },
+      {
+        "id": 14,
+        "tag1": 2.1,
+        "tag2": 6.3,
+        "totalExp": 8.4,
+        "name": "Candidate 15",
+        "gender": "m",
+        "score": 9.6
+      },
+      {
+        "id": 15,
+        "tag1": 7.6,
+        "tag2": 5.4,
+        "totalExp": 13.0,
+        "name": "Candidate 16",
+        "gender": "m",
+        "score": 9.5
+      },
+      {
+        "id": 16,
+        "tag1": 4.4,
+        "tag2": 9.1,
+        "totalExp": 13.5,
+        "name": "Candidate 17",
+        "gender": "m",
+        "score": 9.4
+      },
+      {
+        "id": 17,
+        "tag1": 3.6,
+        "tag2": 1.4,
+        "totalExp": 5.0,
+        "name": "Candidate 18",
+        "gender": "m",
+        "score": 9.3
+      },
+      {
+        "id": 18,
+        "tag1": 5.7,
+        "tag2": 3.0,
+        "totalExp": 8.7,
+        "name": "Candidate 19",
+        "gender": "m",
+        "score": 9.2
+      },
+      {
+        "id": 19,
+        "tag1": 6.1,
+        "tag2": 2.0,
+        "totalExp": 8.1,
+        "name": "Candidate 20",
+        "gender": "m",
+        "score": 9.1
+      }
+    ]
+  },
+  "female average xp": 11.8,
+  "male average xp": 11.0
+}

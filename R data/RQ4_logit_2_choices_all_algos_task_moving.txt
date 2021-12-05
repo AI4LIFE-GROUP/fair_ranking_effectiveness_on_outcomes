@@ -1,0 +1,35 @@
+> model_w_interactions <- glm(selected_2 ~ user_age*isFemale,family = "quasibinomial", data=dat)
+> summary(model_w_interactions)
+
+Call:
+glm(formula = selected_2 ~ user_age * isFemale, family = "quasibinomial", 
+    data = dat)
+
+Deviance Residuals: 
+     Min        1Q    Median        3Q       Max  
+-1.35373  -1.09532   0.03761   1.12167   1.26178  
+
+Coefficients: (1 not defined because of singularities)
+                          Estimate Std. Error t value Pr(>|t|)  
+(Intercept)                 0.4055     0.2918   1.390   0.1650  
+user_age29.5               -0.6016     0.3101  -1.940   0.0526 .
+user_age39.5               -0.5102     0.3153  -1.618   0.1060  
+user_age49.5               -0.4485     0.3340  -1.343   0.1796  
+user_age60                 -0.5824     0.3486  -1.671   0.0950 .
+user_agenoAnswer           -1.7549     1.2324  -1.424   0.1548  
+isFemale                   -0.5965     0.4505  -1.324   0.1858  
+user_age29.5:isFemale       0.9252     0.4818   1.921   0.0551 .
+user_age39.5:isFemale       0.6260     0.4855   1.289   0.1975  
+user_age49.5:isFemale       0.5194     0.5040   1.031   0.3029  
+user_age60:isFemale         0.8147     0.5144   1.584   0.1135  
+user_agenoAnswer:isFemale       NA         NA      NA       NA  
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for quasibinomial family taken to be 0.6130336)
+
+    Null deviance: 910.84  on 1078  degrees of freedom
+Residual deviance: 903.87  on 1068  degrees of freedom
+AIC: NA
+
+Number of Fisher Scoring iterations: 4

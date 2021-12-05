@@ -1,0 +1,46 @@
+> model_wo_interactions <- glm(cand_selected ~ job+ cand_positive_reviews + cand_reliability + cand_tasks_completed + cand_rank + cand_isFemale
++                  , family ="binomial", data=dat)
+> coeftest(model_wo_interactions, vcov.=vcovCL(model_wo_interactions, cluster = dat$uID, type = "HC0"))
+
+z test of coefficients:
+
+                         Estimate  Std. Error  z value  Pr(>|z|)    
+(Intercept)           -3.3973e+01  2.7759e+00 -12.2386 < 2.2e-16 ***
+jobmoving             -4.8245e-03  2.7929e-02  -0.1727    0.8629    
+jobshopping           -7.1101e-03  2.7978e-02  -0.2541    0.7994    
+cand_positive_reviews  9.4030e-02  1.0051e-02   9.3557 < 2.2e-16 ***
+cand_reliability       2.4822e-01  2.4548e-02  10.1117 < 2.2e-16 ***
+cand_tasks_completed   1.3293e-03  1.1783e-04  11.2813 < 2.2e-16 ***
+cand_rank             -7.8592e-02  6.8379e-03 -11.4935 < 2.2e-16 ***
+cand_isFemale          1.7060e-01  3.5824e-02   4.7622 1.915e-06 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+> rsq(model_wo_interactions)
+[1] 0.113165
+
+
+
+> #without cand_gender
+> dat = read.csv("cand_analysis.csv")
+> #dat = dat[dat$cand_priority == 1 | dat$cand_priority == 0,]
+> dat = dat[dat$ranking_type == 2 | dat$ranking_type == 4 | dat$ranking_type == 0,]
+> model_wo_interactions <- glm(cand_selected ~ job+ cand_positive_reviews + cand_reliability + cand_tasks_completed + cand_rank
++                              , family ="binomial", data=dat)
+> coeftest(model_wo_interactions, vcov.=vcovCL(model_wo_interactions, cluster = dat$uID, type = "HC0"))
+
+z test of coefficients:
+
+                         Estimate  Std. Error  z value Pr(>|z|)    
+(Intercept)           -3.4103e+01  2.7911e+00 -12.2182   <2e-16 ***
+jobmoving             -4.5627e-03  2.6891e-02  -0.1697   0.8653    
+jobshopping           -6.8279e-03  2.6932e-02  -0.2535   0.7999    
+cand_positive_reviews  9.7374e-02  1.0111e-02   9.6309   <2e-16 ***
+cand_reliability       2.4680e-01  2.4799e-02   9.9521   <2e-16 ***
+cand_tasks_completed   1.2188e-03  1.2076e-04  10.0928   <2e-16 ***
+cand_rank             -7.8682e-02  6.8686e-03 -11.4552   <2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+> rsq(model_wo_interactions)
+[1] 0.1118175

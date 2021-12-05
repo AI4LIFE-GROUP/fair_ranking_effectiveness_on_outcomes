@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Test</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<script src="script.js"></script>
+<body id="body" onload="load();" style="margin:16px;">
+<p id="headline" style="font-size: 20px; text-align: center;"></p>
+<div id="briefing_text">
+    <p>
+        <div id="briefing_paragraph" class="briefing" style="text-align: left;">
+    <p><b>Informed Consent for Research</b></p>
+    The purpose of this study is to evaluate human decision making with the help of a ranking algorithm. The
+    experiment will consist of a short series of instructions on what we would like you to evaluate, and the
+    participation in tasks related to the choice of gig workers for a one time job.
+    <p/>
+    In total, your participation in this experiment will take about 5 minutes. You must be at least 18 years of age
+    to participate. Your participation in any part of this study is voluntary. You have the right to refuse to
+    participate, or withdraw from the study at any time without any repercussions. There are no known risks
+    associated with your participation in this research beyond those of everyday life.
+    <p/>
+    As a research participant, you will receive compensation. If you complete the study, you will receive compensation
+    of $0.70 .
+    You can earn additional compensation of up to $0.15 based on your performance in the study.
+    The study will consist of 3 comprehension questions followed by 3 tasks regarding the hiring of gig workers
+    and a brief survey of 6 questions about your decision making process and your perception of the algorithm.
+    <p/>
+    Confidentiality of the research records will be strictly maintained. The data will be collected on a secure
+    server. The output of the study will be based on an aggregation of data collected from multiple informants.
+    Diligent care will be taken to protect identities and sensitive information. Your university or group
+    affiliation would also be disguised under pseudonyms.
+    <p/>
+    Research team members, who will sign a confidentiality agreement, will have access to the content of your
+    answers as will the IRB at the governing research institution. Even though we will take every effort to protect
+    your privacy, a breach of confidentiality may become a risk due to unforeseen events. If you have questions,
+    concerns, or complaints, or think the research has hurt you, please feel free to contact the study investigator,
+    Himabindu Lakkaraju. For questions, concerns, suggestions, or complaints that are not being addressed by the
+    researcher, or research-related harm, you can contact the Committee on the Use of Human Subjects in Research at
+    Harvard University, 1414 Massachusetts Avenue, Second Floor, Cambridge, MA 02138 (Phone: 617-496-2847; Email:
+    cuhs@fas.harvard.edu).
+    <p/>
+    You may print this copy of the Consent Document for your records.
+    <p/>
+    <b>We will be tracking the time taken for you to answer each question individually as well as the time spent on the
+        entire survey.
+        <p/>
+        Therefore,
+        it is important that you carry out the study without interruption and without closing the browser window or
+        using the back button.</b>
+    <p/>
+    Please indicate, in the box below, that you are at least 18 years old, have read and understood this consent
+    form, and you agree to participate in this online research study.
+    <p/>
+    <p/>
+    <div id="consent_tools">
+        <form id="consent_form">
+            <div id="errorbox" style="color:red;"></div>
+            <input type="checkbox" id="consent" name="consent" value="consent">
+            <label for="consent"><b>I am at least 18 years old, I have read and understood the consent form and I agree
+                to
+                participate in this online research study.</b></label><br>
+            <p style="text-align: left;"><b>Please enter your Amazon worker ID.</b><br/>You can find your worker ID on
+                your Dashboard or in the upper left corner of the Worker website.</p>
+            <label for="workerID">Your worker ID: </label>
+            <input type="text" id="workerID" value=""></form>
+        <p>Please make sure that you have entered the correct ID. Without your correct ID, we would not be able to
+            compensate you for the study.</p>
+        <p/>
+        <p/>
+    </div>
+</div>
+</div>
+</div>
+</p>
+<b>
+    <div id="briefing_counter"><p>0/6</p></div>
+</b>
+<div id="btn_container">
+    <button id="btn_next" type="reset" onclick="startBriefing();"><b>Start</b></button>
+</div>
+
+<div id="start_survey_btn" class="wrapper">
+</div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+> ###1
+> dat$percent_disadvantaged_selected <- ifelse(dat$rtype_num == 2 | dat$rtype_num == 4,dat$selected_1, dat$selected_1_male) 
+> model_random_rabbit_1 <-glm(percent_disadvantaged_selected ~ task*as.factor(data_order) + task*ranking_type + task*FLIP + as.factor(data_order)*ranking_type + as.factor(data_order)*FLIP + ranking_type * FLIP + FLIP * ranking_type * task ,family="quasibinomial", data=dat)
+> coeftest(model_random_rabbit_1, vcov.=vcovCL(model_random_rabbit_1, cluster = dat$uID, type = "HC0"))
+
+z test of coefficients:
+
+                                               Estimate Std. Error z value  Pr(>|z|)    
+(Intercept)                                    0.373172   0.241993  1.5421  0.123055    
+taskmoving                                    -2.485249   0.375050 -6.6265 3.439e-11 ***
+taskshopping                                  -2.140343   0.347355 -6.1618 7.190e-10 ***
+as.factor(data_order)1                        -2.208641   0.335942 -6.5745 4.882e-11 ***
+as.factor(data_order)2                        -2.246090   0.365043 -6.1530 7.605e-10 ***
+ranking_typeTaskRabbit                        -0.963897   0.316299 -3.0474  0.002308 ** 
+FLIP                                          -0.395530   0.309195 -1.2792  0.200817    
+taskmoving:as.factor(data_order)1              2.275346   0.405544  5.6106 2.016e-08 ***
+taskshopping:as.factor(data_order)1            4.137519   0.366110 11.3013 < 2.2e-16 ***
+taskmoving:as.factor(data_order)2              4.729004   0.390343 12.1150 < 2.2e-16 ***
+taskshopping:as.factor(data_order)2            2.233465   0.402209  5.5530 2.808e-08 ***
+taskmoving:ranking_typeTaskRabbit             -0.402184   0.446847 -0.9000  0.368094    
+taskshopping:ranking_typeTaskRabbit            0.463410   0.419614  1.1044  0.269432    
+taskmoving:FLIP                                0.503540   0.400797  1.2563  0.208990    
+taskshopping:FLIP                              0.324428   0.402468  0.8061  0.420187    
+as.factor(data_order)1:ranking_typeTaskRabbit  0.118302   0.310427  0.3811  0.703134    
+as.factor(data_order)2:ranking_typeTaskRabbit -0.128933   0.345124 -0.3736  0.708714    
+as.factor(data_order)1:FLIP                    0.047281   0.308675  0.1532  0.878261    
+as.factor(data_order)2:FLIP                   -0.376216   0.348989 -1.0780  0.281026    
+ranking_typeTaskRabbit:FLIP                    0.390284   0.421720  0.9255  0.354728    
+taskmoving:ranking_typeTaskRabbit:FLIP         0.416760   0.579269  0.7195  0.471858    
+taskshopping:ranking_typeTaskRabbit:FLIP      -0.661211   0.589741 -1.1212  0.262207    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
